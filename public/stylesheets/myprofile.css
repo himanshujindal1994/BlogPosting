@@ -1,0 +1,59 @@
+.card-panel{
+
+	 transition: box-shadow .25s;
+  padding: 20px;
+  padding-left: 150px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #f0f8ff ;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  position:absolute;
+  top: 100px;
+  left: 300px;
+  bottom:300px;
+  right: 300px;
+  font-family: calibri;
+  font-size: 18px;
+  color: #708090;
+  z-index: 2;
+}
+
+
+body{
+  	background: #dcdcdc;
+   
+  	
+  }
+.profile{
+	float: right;
+	position: absolute;
+	left: 50px;
+	top: 33px;
+	bottom:40px;
+	padding-top: 0px;
+	padding-left: 0px;
+	border: 5px solid #708090;
+}
+.name{
+	color: #3299cc;
+	font-weight: bold;
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+	left: 60px;
+	font-family: cambria; 
+
+}
+
+.profession{
+	color: #3299cc;
+	font-size: 15px;
+	position: relative;
+	top: 16px;
+	left: 60px;
+	font-family: cambria;
+}
+
+span{
+	color: #708090;
+}

@@ -1,0 +1,51 @@
+body{
+	width: 100%;
+	margin: auto;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header{
+	background: #3299cc;
+	width: 100%;
+	top: 0;
+	bottom: 580px;
+	position: fixed;
+	overflow: visible;
+	z-index: 1000;
+}
+
+.logo{
+float: left;
+position: absolute;
+left: 135px;
+top: 15px;
+
+
+}
+.postblog{
+
+	float: left;
+	font-family: "impact";
+	font-size: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+        font-family: "cambria";
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	padding-top: 15px;
+}
+
+.nav{
+	float: right;
+}
